@@ -1,3 +1,7 @@
 pandas
+numpy
 plotly_express
+plotly.graph_objects
+plotly.figure_factory
 streamlit
+
