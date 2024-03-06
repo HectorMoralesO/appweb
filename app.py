@@ -17,7 +17,8 @@ if map_button: # al hacer clic en el botón
     st.write('Los autos convertibles nuevos son los más caros.')
             
     # crear un mapa de árbol
-    car_data_type_condition = car_data.groupby(['type', 'condition']).mean().reset_index() # Agrupar datos por las variables "type" y "condition"
+    car_data_type_condition = car_data.dropna(subset=['price'])
+    car_data_type_condition_price = car_data_type_condition.groupby(['type', 'condition']).mean().reset_index() # Agrupar datos por las variables "type" y "condition"
     fig = px.treemap(car_data_type_condition, path=[px.Constant("Tipos de carros por precio"), 'type', 'condition'], values='days_listed',
                   color='price',
                   color_continuous_scale='RdBu')
