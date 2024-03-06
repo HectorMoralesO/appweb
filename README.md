@@ -6,6 +6,7 @@ La aplicación proporciona diversas funcionalidades para visualizar y analizar l
 
 En esta aplicación los usuarios pueden explorar diferentes aspectos de estos datos, como el precio, el odómetro, el tipo de vehículo y su condición.
 
+Accede a la aplicación a través de la siguiente dirección web: https://appweb-iarp.onrender.com
 
 ## Funcionalidades
 
@@ -25,7 +26,7 @@ Para ejecutar la aplicación web, debes tener instalados los siguientes modulos 
 - `streamlit`
 
 
-## Cómo ejecutar esta aplicación
+## Cómo ejecutar esta aplicación en tu equipo
 
 1. Clona el repositorio de este proyecto en tu equipo.
 2. Abre una terminal y navega hasta la ubicación de la carpeta `appweb`.
